@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #34414d;
+  text-align: left;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 75px;
+}
+
+.header-left {
+  float: left;
+  padding-top: 6px;
+  padding-left: 25px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  float: left;
+  transition: all 0.3s;
+}
+
+.header-right a:hover {
+  background-color: rgba(135, 206, 250, 10);
+  color: white;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.testicon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 15px 0;
+  cursor: pointer;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
+.menu-icon:hover{
+  background-color: rgba(210, 210, 210, 10);
+}
+
+/* Background Images */
+.bg-img-1 {
+  background: url("../images/learning-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-fullscreen {
+  height: 100vh;
+  min-height: 400px;
+}
+
+.full-screen {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.home-wrapper-alt {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-wrapper {
+  color: #fff;
+  text-align: center
+}
+
+.home-wrapper h1 {
+  line-height: 46px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 36px;
+  margin-top: 65px;
+}
+
+.home-wrapper p {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 80%;
+  margin: 30px auto 50px;
+}
+
+.arrow {
+  font-size: 60px;
+  color: #fff;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#e9eaef;
+  text-align: center;
+}
+  
+.heading {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: #5f5d60;
+}
+  
+.heading h2 {
+  text-transform: uppercase;
+  color: #34414d;
+  display: inline-block;
+  height: 45px;
+  box-shadow: 0 22px 0 -20px #2790bf;
+}
+  
+.lesson {
+  float: left;
+  width: 25%;
+}
+  
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+  
+.lesson-icon p {
+  font-size: 20px;
+  font-weight: 600;
+}
+  
+.txt-contents {
+  padding: 0 10px;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-family:fantasy;
+}
+
+.btn {
+  padding: 8px 16px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color:#e9eaef;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 5px 15px;
+  background-color: rgba(135, 206, 250, 10);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(65,105,225);
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+li {
+  list-style: none;
+}
+
+.gallery-wrapper {
+  padding: 40px 0;
+  background-color: #293744;
+}
+
+.gallery-left {
+  float: left;
+}
+
+.gallery-left h2 {
+  color: #ca8326;
+  margin-top: 7px;
+}
+
+.gallery-right {
+  float: right;
+}
+
+.more {
+  background-color: rgba(135, 206, 250, 10);
+  box-shadow: 0 7px rgb(65,105,225);
+}
+
+.more:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.gallery {
+  padding-top: 60px;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #fff;
+}
+
+.gallery-item li {
+  float: left;
+  width: 33%;
+  position: relative;
+}
+
+.gallery-item li span {
+  display: block;
+  width: 300px;
+  height: 200px;
+  border: 5px solid #fff;
+  background: rgba(200, 200, 200, .5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scale(0) rotate(0);
+}
+
+.gallery-item li a:hover span {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+.gallery-item p {
+  width: 83%;
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.gallery-item h4 {
+  color: #ca8326;
+  margin: 10px 0 5px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 16px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color:#293744;
+  opacity: 0.9;
+
+}
+
+footer h1 {
+  font-size: 12px;
+  color: white;
+}
+footer .sub-footer {
+  display: inline-block;
+  margin: 45px 10px;
+}
+footer .newsletter {
+  display: inline-block;
+  margin: 45px 10px;
+  padding-left: 200px; 
+}
+footer .kiri {
+  padding-left: 100px;
+}
+.sub-footer ul {
+  list-style-type: none;
+}
+.sub-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}

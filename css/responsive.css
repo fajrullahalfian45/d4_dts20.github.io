@@ -1,0 +1,92 @@
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .lesson2 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson2 {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  footer .newsletter {
+    padding-left: 0px;
+  }
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  
+  .header-right{
+    display:none;
+  }
+  
+  
+  .testicon {
+    display:block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
+
+@media(max-width:1150px) {
+    .gallery-item li {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .gallery-item p {
+        width: 65%;
+    }
+}
+
+@media(max-width:800px) {
+    .gallery-item li {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .gallery-item p {
+      width: 60%;
+    }
+    .galeries {
+      padding-left: 15%;
+    }
+}
